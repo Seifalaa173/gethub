@@ -1,0 +1,75 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Navbar */
+.navbar {
+  background: #3a7bd5;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar h1 {
+  font-size: 22px;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.card p, .card li {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Ordered / Unordered list */
+ol, ul {
+  padding-right: 20px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  font-size: 14px;
+  margin-top: 30px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
